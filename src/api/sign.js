@@ -29,8 +29,9 @@ export async function signUp(param){
 }
 
 export async function getUserToken(code, state){
+    console.log("code : " + code)
+    console.log("state : " + state)
     try {
-        // const response = await axios.get(`/oauth2/login/callback/kakao?code=${code}&state=${state}`);
         const response = await axios.get(`/oauth/kakao?code=${code}&state=${state}`);
         console.log(response)
         return response.data;

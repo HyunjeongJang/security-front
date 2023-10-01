@@ -40,7 +40,7 @@ const LoginPage = () => {
             <br/>
             <button className='login_btn' onClick={loginUser}>로그인</button>
             <br/>
-            <a href={'http://localhost:8080/oauth2/authorization/kakao'}><img className='login_btn_kakao' src={kakaoBtn}
+            <a href={'http://3.36.154.178:8080/oauth2/authorization/kakao'}><img className='login_btn_kakao' src={kakaoBtn}
                                                                               alt={kakaoBtn}/></a>
             <br/>
             <div className='login_extra'>

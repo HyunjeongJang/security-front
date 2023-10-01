@@ -11,8 +11,7 @@ function App() {
           <Route path='/' element={<MainPage />} />
           <Route path='/login' element={<LoginPage />} />
           <Route path ='/signup' element={<SignUpPage />} />
-          {/*<Route path ='/oauth2/login/callback/kakao' element={<RedirectPage />} />*/}
-            <Route path ='/oauth/kakao' element={<RedirectPage />} />
+          <Route path ='/oauth/kakao' element={<RedirectPage />} />
         </Routes>
       </BrowserRouter>
   );
